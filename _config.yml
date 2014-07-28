@@ -8,14 +8,16 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 相国的技术博客
+title : 技塑人生
 tagline: --相国
 author :
   name : 相国 李彤
   email : litong.bupt@gmail.com
-  github : litongbupt.github.com
+  github : litongbupt
   twitter : litongbupt
-  feedburner : feedname
+  facebook : litongbupt
+  feedburner : xiangguo/Tbvu
+  weibo : paladinbupt
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +27,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://litongbupt.github.io
+production_url : http://www.xiangguo.li
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

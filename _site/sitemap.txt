@@ -1,11 +1,11 @@
 
-http://litongbupt.github.io/archive.html
-http://litongbupt.github.io/atom.xml
-http://litongbupt.github.io/categories.html
-http://litongbupt.github.io/index.html
-http://litongbupt.github.io/pages.html
-http://litongbupt.github.io/rss.xml
-http://litongbupt.github.io/sitemap.txt
-http://litongbupt.github.io/tags.html
+http://www.xiangguo.li/apages.html
+http://www.xiangguo.li/atom.xml
+http://www.xiangguo.li/categories.html
+http://www.xiangguo.li/index.html
+http://www.xiangguo.li/rss.xml
+http://www.xiangguo.li/sitemap.txt
+http://www.xiangguo.li/tags.html
+http://www.xiangguo.li/zarchive.html
 
-http://litongbupt.github.io/lessons/2011/12/29/jekyll-introduction
+http://www.xiangguo.li/lessons/2011/12/29/jekyll-introduction

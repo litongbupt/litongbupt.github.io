@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>相国的技术博客</title>
-        <description>相国的技术博客 - 相国 李彤</description>
-        <link>http://litongbupt.github.io</link>
-        <link>http://litongbupt.github.io</link>
-        <lastBuildDate>2014-07-28T10:43:52+08:00</lastBuildDate>
-        <pubDate>2014-07-28T10:43:52+08:00</pubDate>
+        <title>技塑人生</title>
+        <description>技塑人生 - 相国 李彤</description>
+        <link>http://www.xiangguo.li</link>
+        <link>http://www.xiangguo.li</link>
+        <lastBuildDate>2014-07-28T11:50:54+08:00</lastBuildDate>
+        <pubDate>2014-07-28T11:50:54+08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -428,8 +428,8 @@ As noted, our main programming constraint is the fact that our API is limited to
 &lt;p&gt;Please take a look at []()
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://litongbupt.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://litongbupt.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <link>http://www.xiangguo.li/lessons/2011/12/29/jekyll-introduction</link>
+                <guid>http://www.xiangguo.li/lessons/2011/12/29/jekyll-introduction</guid>
                 <pubDate>2011-12-29T00:00:00+08:00</pubDate>
         </item>
 

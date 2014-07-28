@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>相国的技术博客</title>
- <link href="http://litongbupt.github.io/" rel="self"/>
- <link href="http://litongbupt.github.io"/>
- <updated>2014-07-28T10:43:52+08:00</updated>
- <id>http://litongbupt.github.io</id>
+ <title>技塑人生</title>
+ <link href="http://www.xiangguo.li/" rel="self"/>
+ <link href="http://www.xiangguo.li"/>
+ <updated>2014-07-28T11:50:54+08:00</updated>
+ <id>http://www.xiangguo.li</id>
  <author>
    <name>相国 李彤</name>
    <email>litong.bupt@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://litongbupt.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://www.xiangguo.li/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://litongbupt.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://www.xiangguo.li/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;

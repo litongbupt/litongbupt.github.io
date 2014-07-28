@@ -38,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#232323;
+  color:#FFFFFF;
   margin:36px 0 10px;
 }
 
@@ -254,7 +254,7 @@ header ul {
 
 header li {
 	list-style-type: none;
-  width:132px;
+  width:150px;
   height:15px;
 	margin-bottom: 12px;
 	line-height: 1em;

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 相国的技术博客
+title: 技塑人生
 ---
 {% include JB/setup %}
 
