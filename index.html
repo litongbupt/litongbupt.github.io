@@ -4,6 +4,29 @@ title: 技塑人生
 tagline:
 ---
 {% include JB/setup %}
+<div class="col-sm-3">
+    <ul class="nav nav-tabs tabs-left">
+      {% assign categories_list = site.categories %}
+      {% if categories_list.first[0] == null %}
+        {% for category in categories_list %}
+            <li>
+                <a href="#{{ category }}-ref" data-toggle="tab">
+                  {{ category | capitalize }} <span class="badge pull-right">{{ site.categories[category].size }}</span>
+               </a>
+            </li>
+        {% endfor %}
+      {% else %}
+        {% for category in categories_list %}
+            <li>
+                <a href="#{{ category[0] }}-ref" data-toggle="tab">
+                    {{ category[0] | capitalize }} <span class="badge pull-right">{{ category[1].size }}</span>
+                </a>
+            </li>
+        {% endfor %}
+      {% endif %}
+      {% assign categories_list = nil %}
+    </ul>
+</div>
 
 {% for post in paginator.posts %}
 {% if post.hidden != true %}
