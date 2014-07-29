@@ -11,7 +11,7 @@ pygments: true
 title : 技塑人生
 tagline: --相国
 author :
-  name : 相国 李彤
+  name : 相国
   email : litong.bupt@gmail.com
   github : litongbupt
   twitter : litongbupt
@@ -20,6 +20,7 @@ author :
   weibo : paladinbupt
   linkedin: litongbupt
   email_md5: fef2b1ae454ddaf7e4b502d8c83c9435
+  bio: --一个热爱coding的骚年
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
