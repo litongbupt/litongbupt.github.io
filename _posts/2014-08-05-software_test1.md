@@ -104,6 +104,7 @@ Evolutif公司提出了W模型的概念，增加了软件各开发阶段中应�
 
 ##2.5 软件测试的原则
 !["优化测试"](http://xiangguo.qiniudn.com/img/posts/software_test/test.png "优化测")
+
 - 完全测试是不可能的
 - 软件测试是有风险的活动    
     * 如果不选择完全测试所有情况，那就是选择了冒险
