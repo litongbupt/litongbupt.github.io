@@ -2,7 +2,7 @@
 layout: post
 title: "软件测试基本概念-概述"
 description: "软件缺陷，软件测试模型：V模型、W模型、H模型，软件测试的分类，原则，停止条件以及误区。"
-category: 软件测试
+category: software_test
 tags: [软件测试]
 fullview: false
 ---

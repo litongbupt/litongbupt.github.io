@@ -2,7 +2,7 @@
 layout: post
 title: "软件测试基本概念-策略"
 description: "静态测试与动态测试、黑盒测试与白盒测试"
-category: 软件测试
+category: software_test
 tags: [软件测试]
 fullview: false
 ---

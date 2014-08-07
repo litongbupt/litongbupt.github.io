@@ -2,7 +2,7 @@
 layout: post
 title: "软件测试基本概念-白盒测试"
 description: "逻辑覆盖法、基本路径测试方法、循环测试、Z路径测试、程序插桩法"
-category: 软件测试
+category: software_test
 tags: [软件测试]
 fullview: false
 ---

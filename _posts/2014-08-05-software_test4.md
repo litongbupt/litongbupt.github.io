@@ -2,7 +2,7 @@
 layout: post
 title: "软件测试基本概念-黑盒测试"
 description: "等价类划分法、边界值法、决策表法、因果图法、场景法"
-category: 软件测试
+category: software_test
 tags: [软件测试]
 fullview: false
 ---

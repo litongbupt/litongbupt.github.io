@@ -2,7 +2,7 @@
 layout: post
 title: "软件测试基本概念-过程"
 description: "制定测试计划、测试执行过程"
-category: 软件测试
+category: software_test
 tags: [软件测试]
 fullview: false
 ---
