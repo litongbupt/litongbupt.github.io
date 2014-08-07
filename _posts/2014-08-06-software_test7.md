@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "单元测试工具对比"
-description: "单元测试的定义、测试对象、时间、人员、内容、相关概念"
+description: "Junit or TestNg、Java or Groovy、Spock"
 category: software_test
 tags: [软件测试]
 fullview: false
