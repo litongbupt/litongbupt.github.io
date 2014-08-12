@@ -39,7 +39,7 @@ google的产品:
 
 ##6 agitarone
 <http://www.agitar.com/solutions/products/agitarone.html>
-现在看起来还是不错的，明天仔细研究一下。
+功能很强大，是我想要的菜，不过收费啊，言屌
 
 ##7 gebish
 <http://www.gebish.org/>
