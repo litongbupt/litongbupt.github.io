@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "单元测试代码自动生成工具"
-description: "Junit or TestNg、Java or Groovy、Spock"
+description: "AST Tester、Randoop、JTestCase、TestGen4J、CodePro AnalytiX、agitarone、gebish"
 category: software_test
 tags: [软件测试]
 fullview: false
@@ -14,7 +14,7 @@ fullview: false
 <http://www.atatech.org/articles/3530>  
 集团的，已经没有人维护了。
 
-##2 randoop
+##2 Randoop
 <https://code.google.com/p/randoop/>
 没有diea插件，言屌
 
