@@ -56,6 +56,8 @@ function FindProxyForURL(url,host)
           return "PROXY 10.23.8.125:3128"
       else if (shExpMatch(host,"*.googleapis.com"))
           return "PROXY 10.23.8.125:3128"
-      else
+     else if (shExpMatch(host,"*.spockframework.org)
+			return "PROXY 10.23.8.125:3128"
+	  else
           return "DIRECT"
      }
