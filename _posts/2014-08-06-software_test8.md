@@ -16,7 +16,7 @@ fullview: false
 
 ##2 Randoop
 <https://code.google.com/p/randoop/>
-没有diea插件，言屌
+用了下eclipse的插件，只能随机生成测试用例。没有diea插件，言屌
 
 ##3 JTestCase
 <http://www.parasoft.com/jtest?itemId=14>
@@ -35,7 +35,7 @@ The test data is also organized hierarchically, corresponding to the structure o
 google的产品:
 [JUnit Test Case Generation](https://developers.google.com/java-dev-tools/codepro/doc/features/junit/test_case_generation#InvokingTestGenerator)
 [JUnit Test Editor](https://developers.google.com/java-dev-tools/codepro/doc/features/juniteditor/junit_testeditor)
-这两个配合起来使用还是不错的。
+这两个配合起来使用，书写测试用例可以用UI完成，还是不错的。为啥没有idea插件呢？
 
 ##6 agitarone
 <http://www.agitar.com/solutions/products/agitarone.html>
