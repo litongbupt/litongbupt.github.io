@@ -3,7 +3,7 @@ layout: post
 title: "海量数据处理之二：Bloom Filter"
 description: "Bloom Filter是一种空间效率很高的随机数据结构，它利用位数组很简洁地表示一个集合，并能判断一个元素是否属于这个集合。"
 category: big-data-base 
-tags: [bloom filter,布隆过滤器]
+tags: [bloom filter,布隆过滤器,海量数据处理]
 ---
 {% include JB/setup %}
 ##【什么是Bloom Filter】
