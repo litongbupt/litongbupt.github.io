@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Dremel 原理   如何能3秒分析1PB"
-description: ""
+description: "Dremel 是Google 的“交互式”数据分析系统。可以组建成规模上千的集群，处理PB级别的数据。MapReduce处理一个数据，需要分钟级的时间。作为MapReduce的发起人，Google开发了Dremel将处理时间缩短到秒级，作为MapReduce的有力补充。Dremel作为Google BigQuery的report引擎，获得了很大的成功。最近Apache计划推出Dremel的开源实现Drill，将Dremel的技术又推到了浪尖上。"
 category: big-data-system
 tags: [dremel drill]
 ---
