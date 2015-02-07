@@ -221,4 +221,7 @@ Scalable data source: 支持多种数据源，现阶段以Hadoop为数据源。
 
 本文介绍了Google Dremel的使用场景，设计实现，测试实验，和对开源世界的影响。相信不久的将来，Dremel的技术会得到广泛的应用。
 
-转自<http://www.yankay.com/google-dremel-rationale>
+***
+
+转自<http://www.yankay.com/google-dremel-rationale>    
+原始论文地址<http://research.google.com/pubs/pub36632.html>
