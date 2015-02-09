@@ -38,7 +38,9 @@ Important: The memory settings assume that there are no other services on the ma
 rpm -e infobright 
 dpkg -r infobright 
  
-备注：数据导入导出工具 http://www.infobright.org/Downloads/contribute/
+备注：    
+数据导入导出工具 http://www.infobright.org/Downloads/contribute/
+load工具：https://github.com/litongbupt/infobright_load_tool
 
 9.示例：从普通的MySQL数据库（假设MySQL安装路径为/usr/local/webserver/mysql）导出数据到csv文件： 
     
@@ -70,7 +72,8 @@ dpkg -r infobright
 注：BRIGHTHOUSE存储引擎建表时不能有AUTO_INCREMENT自增、unsigned无符号、unique唯一、主键PRIMARY KEY、索引KEY。 
 
 11.示例：从csv文件导入数据到Infobright数据仓库： 
-/usr/local/infobright/bin/mysql  -S /tmp/mysql3307.sock -D dw --skip-column-names -e "LOAD DATA INFILE  '/data0/test.csv' INTO TABLE log_visits_2010_04_13 FIELDS TERMINATED BY  ',' ESCAPED BY '\' LINES TERMINATED BY 'n';" 
+
+    /usr/local/infobright/bin/mysql  -S /tmp/mysql3307.sock -D dw --skip-column-names -e "LOAD DATA INFILE  '/data0/test.csv' INTO TABLE log_visits_2010_04_13 FIELDS TERMINATED BY  ',' ESCAPED BY '\' LINES TERMINATED BY 'n';" 
 
 12.更改目录后不能启动mysqld的种种解答 
 
