@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "列式数据库infobright"
-description: ""
-category: 
-tags: []
+description: "infobright是一个基于MySQL的数据仓库系统，内部是没有索引，采用的Knowledge Grid来组织数据。"
+category: sql_and_nosql
+tags: [infobright,简介,架构,原理,优化]
 ---
 {% include JB/setup %}
 
