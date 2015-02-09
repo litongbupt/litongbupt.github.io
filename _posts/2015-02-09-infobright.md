@@ -9,8 +9,19 @@ tags: []
 
 ##1.简介
 
-infobright是一个基于MySQL的数据仓库系统，[共工的不周山的blog](http://www.wentrue.net/blog/?tag=infobright)上有挺详细的介绍。infobright采用列式存储高压缩比，并且采用的Knowledge Grid来组织数据，infobright内部是没有索引，就这点就节省了不少的空间。
-说infobright之前先回顾下mysql:
+infobright是一个基于MySQL的数据仓库系统，内部是没有索引，采用的Knowledge Grid来组织数据。基本特征如下：
+
+- 查询性能高：百万、千万、亿级记录数条件下，同等的SELECT查询语句，速度比MyISAM、InnoDB等普通的MySQL存储引擎快5～60倍 
+- 存储数据量大：TB级数据大小，几十亿条记录 
+- 高压缩比：理论上是40：1，在我们的项目中为10:1，极大地节省了存储空间 
+- 基于列存储：无需要物化视图、复杂的数据分区策略、索引 
+- 适合复杂的分析性SQL查询：SUM, COUNT, AVG, GROUP BY
+- 没有特殊的数据仓库摸（比如星形模型、雪花模型）要求
+- 和众多的BI套件相容，比如Pentaho、Cognos、Jaspersoft。
+- 随着数据库的逐渐增大，查询和装载性能基本保持稳定,实施和管理简单，需要极少的管理
+
+
+说infobright之前，先回顾下mysql:
 
 
 ###1.1 Mysql逻辑视图
@@ -39,20 +50,11 @@ MVCC的实现是通过保存数据在某个时间点的快照来实现。
 优点：可以将普通的CSV文件作为MySQL的表来处理
 缺点：不支持索引
 
+####brighthoust
+即infobright
 
-       
-###1.3 infoBright的基本特征
 
-- 查询性能高：百万、千万、亿级记录数条件下，同等的SELECT查询语句，速度比MyISAM、InnoDB等普通的MySQL存储引擎快5～60倍 
-- 存储数据量大：TB级数据大小，几十亿条记录 
-- 高压缩比：理论上是40：1，在我们的项目中为10:1，极大地节省了存储空间 
-- 基于列存储：无需要物化视图、复杂的数据分区策略、索引 
-- 适合复杂的分析性SQL查询：SUM, COUNT, AVG, GROUP BY
-- 没有特殊的数据仓库摸（比如星形模型、雪花模型）要求
-- 和众多的BI套件相容，比如Pentaho、Cognos、Jaspersoft。
-- 随着数据库的逐渐增大，查询和装载性能基本保持稳定,实施和管理简单，需要极少的管理
-
-##1.4 ICE和IEE版本的比较    
+##1.3 ICE和IEE版本的比较    
 
 infobright有两个版本ICE和IEE，支持64位和32位的Linux和windows。
 
@@ -215,9 +217,9 @@ infobright的设置方法和mysql自身的大同小异
 
 维基：www.infobright.org/wiki    
 论坛：www.infobright.org/Forums    
+博客：[共工的不周山的blog](http://www.wentrue.net/blog/?tag=infobright)
 开源贡献：www.infobright.org/Downloads/Contributed-Software/    
-我的贡献：[往infobright数据load数据的开源shell脚本](https://github.com/litongbupt/infobright_load_tool)
-
+我的贡献：[往infobright数据load数据的开源shell脚本](https://github.com/litongbupt/infobright_load_tool)    
 
 
 
