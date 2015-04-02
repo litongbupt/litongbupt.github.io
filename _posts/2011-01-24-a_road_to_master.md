@@ -3,7 +3,7 @@ layout: post
 title: "漫漫考研路"
 description: "感觉对学渣会有帮助"
 category: life
-tags: [life]
+tags: [漫漫考研路]
 ---
 {% include JB/setup %}
 This article goes out to all those special people in my heart 

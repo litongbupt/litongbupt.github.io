@@ -2,8 +2,8 @@
 layout: post
 title: "写给东软的学弟学妹们的一封信"
 description: "写于2010年8月14日"
-category: 
-tags: [life]
+category: life
+tags: [大学生活]
 ---
 {% include JB/setup %}
 
