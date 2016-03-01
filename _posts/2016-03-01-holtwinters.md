@@ -2,7 +2,7 @@
 layout: post
 title: "三次指数平滑法(Holt-Winters)"
 description: "时间序列挖掘-预测算法-三次指数平滑法(Holt-Winters)"
-category: life
+category: Algorithm
 tags: [algorithm]
 ---
 {% include JB/setup %}
