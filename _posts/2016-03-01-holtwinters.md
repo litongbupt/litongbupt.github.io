@@ -1,4 +1,11 @@
-# 时间序列挖掘-预测算法-三次指数平滑法(Holt-Winters)
+---
+layout: post
+title: "三次指数平滑法(Holt-Winters)"
+description: "时间序列挖掘-预测算法-三次指数平滑法(Holt-Winters)"
+category: life
+tags: [algorithm]
+---
+{% include JB/setup %}
 
 在时间序列中，我们需要基于该时间序列当前已有的数据来预测其在之后的走势，三次指数平滑(Triple/Three Order Exponential Smoothing,Holt-Winters)算法可以很好的进行时间序列的预测。
 
@@ -88,4 +95,6 @@
 
 
   可以看到三次指数平滑算法可以很好的保存时间序列数据的趋势和季节性信息，在International Airline Passengers数据集上累乘平滑指数算法的效果更好。
+  
+  
 
