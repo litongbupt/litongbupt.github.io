@@ -97,4 +97,4 @@ tags: [algorithm]
   可以看到三次指数平滑算法可以很好的保存时间序列数据的趋势和季节性信息，在International Airline Passengers数据集上累乘平滑指数算法的效果更好。
   
   
-
+转自:[kemaswill](http://www.cnblogs.com/kemaswill/archive/2013/04/01/2993583.html)
